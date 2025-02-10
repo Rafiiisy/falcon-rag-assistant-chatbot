@@ -1,0 +1,25 @@
+# Ignore Python & Virtual Environment
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+myenv/
+
+# Ignore Environment Variables & API Keys
+.env
+config.json
+
+# Ignore Data & Vector Database Files
+*.pkl
+*.db
+*.sqlite
+faiss_index/
+embeddings.pkl
+data/*.json  # If you want to exclude limited_faqs.json
+
+# Ignore Logs & Cache
+*.log
+logs/
+*.cache

@@ -1,16 +1,31 @@
 # 🚀 **Falcon RAG Assistant Chatbot**
+
+## 📖 Table of Contents  
+- [📝 Overview](#-overview)  
+- [📌 Features](#-features)  
+- [⚙️ Tech Stack](#️-tech-stack)  
+- [📁 Project Structure](#-project-structure)  
+- [📸 UI Preview](#-ui-preview)  
+- [🏗️ Flowchart](#️-flowchart)  
+- [🏛️ System Architecture](#️-system-architecture)  
+- [📊 Dataset Source](#-dataset-source)  
+- [🚀 Installation & Setup](#-installation--setup)  
+- [🛠️ Future Improvements](#️-future-improvements)  
+- [📜 License](#-license)  
+
+---
 ## 📝 **Overview**
 
 Falcon RAG Assistant Chatbot is an intelligent customer support chatbot built using a Retrieval-Augmented Generation (RAG) pipeline powered by BM25, FAISS, and Falcon-7B. The chatbot provides real-time query responses by leveraging both lexical and semantic search methods.
-
-### 🎯 **Goals & Scope**  
-#### ✅ **Goals**
+---
+## 🎯 **Goals & Scope**  
+### ✅ **Goals**
 - Implement **hybrid retrieval (BM25 + FAISS)** for **better accuracy** in matching queries.  
 - Use **Falcon-7B** as an **LLM-based response generator**.  
 - Improve chatbot speed with **parallel API calls**.  
 - Provide a **real-time chat interface** using **Streamlit**.  
 
-#### ❌ **Out of Scope**
+### ❌ **Out of Scope**
 - The chatbot currently supports **customer service-related queries**.  
 - **Not fine-tuned** on a custom dataset.  
 - No **multilingual support** (currently only in **English**).  
@@ -18,7 +33,7 @@ Falcon RAG Assistant Chatbot is an intelligent customer support chatbot built us
 
 ---
 
-## 📌**Features**
+## 📌 **Features**
 
 - 🔍 Hybrid Search (BM25 + FAISS) for accurate response retrieval.
 
@@ -61,21 +76,21 @@ Falcon RAG Assistant Chatbot is an intelligent customer support chatbot built us
 ```
 ---
 
-### 📸 UI Preview
+## 📸 UI Preview
 
 📌 Screenshot of the chatbot interface in Streamlit.
-
-### 🏗️ Flowchart
+---
+## 🏗️ Flowchart
 
 📌 Diagram showing the chatbot's decision-making flow.
-
-### 🏛️ System Architecture
+---
+## 🏛️ System Architecture
 
 📌 Overview of the backend and frontend architecture.
 
 ---
 
-### 📊 Dataset Source
+## 📊 Dataset Source
 
 The dataset used for training and retrieval is sourced from:🔗 Bitext Gen AI Chatbot Customer Support Dataset
 

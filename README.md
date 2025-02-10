@@ -1,10 +1,8 @@
-# 🚀 **Falcon RAG Assistant Chatbot**
+# 🚀 Falcon RAG Assistant Chatbot
 
 ## 📖 Table of Contents  
 - [📝 Overview](#-overview)  
 - [📌 Features](#-features)  
-- [⚙️ Tech Stack](#️-tech-stack)  
-- [📁 Project Structure](#-project-structure)  
 - [📸 UI Preview](#-ui-preview)  
 - [🏗️ Flowchart](#️-flowchart)  
 - [🏛️ System Architecture](#️-system-architecture)  
@@ -14,22 +12,24 @@
 - [📜 License](#-license)  
 
 ---
-## 📝 **Overview**
+
+## 📝 Overview
 
 Falcon RAG Assistant Chatbot is an intelligent customer support chatbot built using a Retrieval-Augmented Generation (RAG) pipeline powered by BM25, FAISS, and Falcon-7B. The chatbot provides real-time query responses by leveraging both lexical and semantic search methods.
+
 ---
-## 🎯 **Goals & Scope**  
-### ✅ **Goals**
+
+## 🎯 Goals & Scope  
+### ✅ Goals
 - Implement **hybrid retrieval (BM25 + FAISS)** for **better accuracy** in matching queries.  
 - Use **Falcon-7B** as an **LLM-based response generator**.  
 - Improve chatbot speed with **parallel API calls**.  
 - Provide a **real-time chat interface** using **Streamlit**.  
 
-### ❌ **Out of Scope**
+### ❌ Out of Scope
 - The chatbot currently supports **customer service-related queries**.  
 - **Not fine-tuned** on a custom dataset.  
 - No **multilingual support** (currently only in **English**).  
-
 
 ---
 
@@ -48,6 +48,7 @@ Falcon RAG Assistant Chatbot is an intelligent customer support chatbot built us
 - 📊 Scalable and Deployable on cloud or local environments.
 
 ### ⚙️ **Tech Stack**  
+
 - **LLM Model**: Falcon-7B (via Hugging Face API)  
 - **Retrieval**: FAISS (vector search) + BM25 (lexical search)  
 - **Backend**: FastAPI (Python)  
@@ -56,7 +57,7 @@ Falcon RAG Assistant Chatbot is an intelligent customer support chatbot built us
 - **Async API Calls**: Aiohttp  
 - **Deployment**: (Local, Cloud options can be added later)  
 
-### 📁 **Project Structure**
+### 📁 Project Structure
 ```
 📦 intelligent-rag-chatbot-llama
 ├── chatbot/
@@ -121,6 +122,7 @@ python api/main.py
 ```
 python -m streamlit run frontend/app.py
 ```
+
 ---
 
 ## 🛠️ Future Improvements
@@ -132,6 +134,7 @@ python -m streamlit run frontend/app.py
 ✅ Deploy using Docker or cloud services.
 
 ---
+
 ## 📜 License
 
 This project is open-source and available under the MIT License.

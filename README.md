@@ -14,6 +14,11 @@
 ## Introduction
 Welcome to the **Intelligent RAG Chatbot**! 🚀 This project implements a **Retrieval-Augmented Generation (RAG)** chatbot using BM25 for lexical search, FAISS for semantic retrieval, and Falcon-7B for response generation. It efficiently handles customer support queries by retrieving the most relevant FAQs and generating informative responses.
 
+📌 **Dataset Used:**  
+This project is built using a customer support dataset from Kaggle:  
+[Bitext Gen AI Chatbot Customer Support Dataset](https://www.kaggle.com/datasets/bitext/bitext-gen-ai-chatbot-customer-support-dataset)
+
+
 ## Project Goals & Scope
 ### Goals
 - Develop a chatbot that combines **retrieval-based and generative AI** approaches.
